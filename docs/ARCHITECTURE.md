@@ -1,5 +1,21 @@
 # Chatlog Architecture Documentation
 
+## Table of Contents
+
+1. [Overview](#overview)
+2. [Architecture Diagram](#architecture-diagram)
+3. [Core Components](#core-components)
+4. [Data Flow](#data-flow)
+5. [Technology Stack](#technology-stack)
+6. [Platform Support](#platform-support)
+7. [Database Schema](#database-schema)
+8. [Configuration](#configuration)
+9. [Security Considerations](#security-considerations)
+10. [Extension Points](#extension-points)
+11. [Performance Considerations](#performance-considerations)
+12. [Error Handling](#error-handling)
+13. [Future Enhancements](#future-enhancements)
+
 ## Overview
 
 Chatlog is a comprehensive WeChat chat log management tool written in Go. It provides functionality to decrypt, query, and serve WeChat chat data through multiple interfaces including a Terminal UI, HTTP REST API, and MCP (Model Context Protocol) integration.
